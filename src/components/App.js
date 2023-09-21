@@ -8,7 +8,7 @@ const App = () => {
   function SubmitFn(){
     setIsLoggedIn(true);
   }
-  return (
+  return(
     <div>
         {/* Do not remove the main div */}
         <h1>Parent Component</h1>
@@ -17,7 +17,7 @@ const App = () => {
           <input type="text" name="nameInput"/><br />
           <label htmlFor="passwordInput">Password: </label>
           <input type="password" name="passwordInput"/>
-          <br />
+          <br/>
           <button type="submit">Login</button>
         </form>}
         {
